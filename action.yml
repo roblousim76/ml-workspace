@@ -21,3 +21,5 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+- name: Create Azure ML Workspace
+  uses: dciborow/ml-workspace@0.0.0
